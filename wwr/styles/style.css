@@ -169,7 +169,6 @@ footer a:hover{
 }
 .logo {
     width: 80px;
-    padding: 35px;
 }
 footer p{
     font-size: 1.2em;
@@ -194,6 +193,10 @@ footer .social img {
 }
 main section img {
     box-sizing: border-box;
+}
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
 }
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
